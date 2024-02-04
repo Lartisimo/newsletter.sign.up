@@ -1,0 +1,98 @@
+body {
+    background-color: #36394d;
+    color: #232743;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    height: 550px;
+    width: 750px;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    margin: 250px auto;
+    padding: 20px 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width:600px) {
+    .main {
+        height: auto;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* === left side === */
+.left {
+    padding: 60px 30px;
+}
+
+.heading {
+    font-size: 48px;
+    margin: 0;
+}
+
+.description {
+    font-size: 14px;
+    opacity: 80%;
+    line-height: 25px;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin: 30px 0;
+    line-height: 35px;
+
+
+}
+
+.list_item {
+    font-size: 14px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* === Form === */
+.email {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.input {
+    height: 45px;
+    width: 100%;
+    max-width: 290px;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 10px;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.button {
+    height: 45px;
+    width: 100%;
+    color: #fff;
+    background-color: #232743;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+/* === right side === */
+.img {
+    height: 550px;
+    border-radius: 30px;
+    padding: 0;
+}
