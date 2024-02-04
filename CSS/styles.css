@@ -5,11 +5,10 @@ body {
 }
 
 .main {
-    height: 560px;
-    width: 840px;
+    height: 600px;
+    width: 900px;
     background-color: #fff;
     border-radius: 40px;
-    display: flex;
     margin: 250px auto;
     padding: 20px 0;
 }
@@ -34,7 +33,7 @@ body {
 
 /* === left side === */
 .left {
-    padding: 60px 30px;
+    padding: 60px 40px;
 }
 
 .heading {
@@ -43,7 +42,7 @@ body {
 }
 
 .description {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 25px;
 }
 
@@ -57,7 +56,7 @@ body {
 }
 
 .list_item {
-    font-size: 14px;
+    font-size: 16px;
     padding: 0;
     display: flex;
     align-items: center;
@@ -71,9 +70,9 @@ body {
 }
 
 .input {
-    height: 50px;
+    height: 55px;
     width: 100%;
-    max-width: 335px;
+    max-width: 344px;
     border: 1px solid rgb(223, 213, 213);
     border-radius: 10px;
     margin: 10px 0;
@@ -81,7 +80,7 @@ body {
 }
 
 .button {
-    height: 50px;
+    height: 55px;
     width: 100%;
     color: #fff;
     background-color: #232743;
@@ -93,7 +92,7 @@ body {
 
 /* === right side === */
 .img {
-    height: 550px;
+    height: 600px;
     width: 100%;
     border-radius: 20px;
     padding: 0;
