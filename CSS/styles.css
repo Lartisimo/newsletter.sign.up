@@ -6,11 +6,11 @@ body {
 
 .main {
     height: 600px;
-    width: 900px;
+    width: 950px;
     background-color: #fff;
     border-radius: 40px;
-    margin: 230px auto;
-    padding: 20px 0;
+    margin: 200px auto;
+    padding: 50px 0;
 }
 
 .grid {
@@ -33,7 +33,7 @@ body {
 
 /* === left side === */
 .left {
-    padding: 60px 40px;
+    padding: 60px 50px;
 }
 
 .heading {
